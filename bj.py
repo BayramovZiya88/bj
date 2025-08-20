@@ -247,4 +247,5 @@ async def on_command_error(ctx, error):
 
 # Botu token ile çalıştırma
 # Lütfen TOKENİNİ tırnak işaretlerinin içine yapıştır
-bot.run("MTQwNzM1OTkxMTA2MjUzNjI0NA.GSRFUO.jZcJ-NZpTkn8CWAHSWhRjCO5upDhRFb2VnWRts")
+
+bot.run("TOKEN")
