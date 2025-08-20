@@ -3,6 +3,7 @@ from discord.ext import commands
 import json
 import datetime
 import random
+import os
 
 # Discord Intents'lerini ayarlama
 intents = discord.Intents.default()
@@ -253,4 +254,5 @@ if bot_token:
     bot.run(bot_token)
 else:
     print("HATA: BOT_TOKEN ortam değişkeni bulunamadı.")
+
 
