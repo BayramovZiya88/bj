@@ -248,4 +248,9 @@ async def on_command_error(ctx, error):
 # Botu token ile çalıştırma
 # Lütfen TOKENİNİ tırnak işaretlerinin içine yapıştır
 
-bot.run("TOKEN")
+bot_token = os.environ.get("BOT_TOKEN")
+if bot_token:
+    bot.run(bot_token)
+else:
+    print("HATA: BOT_TOKEN ortam değişkeni bulunamadı.")
+
